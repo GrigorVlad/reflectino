@@ -20,13 +20,15 @@ public class Person {
         return parents;
     }
 
-    public void setParents(ArrayList<String> parents) {
+    public void setParents(List<String> parents) {
         this.parents = parents;
     }
 
     public Integer getAgeOf() {
         return ageOf;
     }
+
+    public String getAgeOf(int i) { return "fdvx";}
 
     public String getName() {
         return name;

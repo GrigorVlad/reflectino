@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) throws IllegalAccessException, NoSuchFieldException, NoSuchMethodException {
-        Person p1 = initiolaze();
+        Person p1 = initialize();
         Person p2 = new Person();
         System.out.println(p1);
         System.out.println(p2);
@@ -16,7 +16,7 @@ public class Main {
 
     }
 
-    private static Person initiolaze() {
+    private static Person initialize() {
         Person person = new Person();
         person.setName("Vlad");
         person.setSurname("Grigorenko");
